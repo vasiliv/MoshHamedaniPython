@@ -9,3 +9,10 @@ print(path.exists())
 
 #creation time of this file, ctime - builtin function, stat.ST_CTIME - creation time
 print(ctime(path.stat().st_ctime))
+
+# returnes contents of path file as string
+print(path.read_text())
+
+# pathis failshi rame textis chacera
+#path.write_text("blablabla")
+
