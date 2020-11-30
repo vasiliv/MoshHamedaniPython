@@ -18,7 +18,7 @@ with ZipFile("files.zip","w") as zipFile:
 with ZipFile("files.zip") as zipFile:
     print(zipFile.namelist())
     #getinfo metodi gasarkvevia windowsistvis
-    #info = zipFile.getinfo()
+    info = zipFile.getinfo("Projects\MoshHamedaniPython\lecture_9_5.py")
     #print(info.)
     # Extracted - folder name in project directory
     zipFile.extractall("Extracted")
