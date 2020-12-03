@@ -9,8 +9,8 @@ client = Client(account_sid,auth_token)
 # client.calls
 # client.chat
 call = client.messages.create(
-    to="+995595604040",
+    to="+995599930590",
     from_="+15155199793",
-    body="Test"
+    body="Shota shens dedas shesca cminda giorgim"
 )
 
